@@ -1,0 +1,19 @@
+/summon minecraft:wither
+/effect clear
+/advancement revoke @s everything
+/effect clear
+/summon minecraft:zombie
+/effect give @s minecraft:instant_damage infinite 255
+/effect clear
+/effect give @s minecraft:instant_damage infinite 127
+/effect clear
+/effect give @s minecraft:instant_damage infinite 1
+/effect give @s minecraft:instant_damage infinite 125
+/effect clear
+/effect give @s minecraft:instant_damage infinite 124
+/gamerule keepInventory true
+/summon minecraft:zombie
+/summon minecraft:sheep
+/damage @s 19
+/summon minecraft:sheep
+/effect clear
